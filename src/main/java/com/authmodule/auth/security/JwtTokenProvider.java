@@ -1,6 +1,7 @@
 package com.authmodule.auth.security;
 
 import com.authmodule.auth.entities.User;
+import com.authmodule.auth.exceptions.BadRequestException;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
